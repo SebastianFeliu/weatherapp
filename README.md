@@ -1,5 +1,6 @@
 # Weatherapp
 Aplicación del clima con la API de OpenWeatherMap y Javascript
+Ejemplo de FAZT CODE con mejoras visuales y de datos
 
 # Dependencias:
 NodeJS
