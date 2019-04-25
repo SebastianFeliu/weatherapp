@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aplicación del clima</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+</head>
+<body>
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-4 mx-auto text-center">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 id="weather-location" class="h3"></h1>
+                        <h3 id="weather-description" class="h4 d-inline"></h3>
+                        <img id="weather-icon" class="img-fluid d-inline" src="http://openweathermap.org/images/transparent.png" alt="img" width="50" height="50">
+                        <h5 id="weather-string"></h5>
+                        <h5 id="weather-min"></h5>
+                        <h5 id="weather-max"></h5>
+                        <ul class="list-group mt-3">
+                            <li id="weather-humidity" class="list-group-item"></li>
+                            <li id="weather-wind" class="list-group-item"></li>
+                            <li id="weather-sunrise" class="list-group-item"></li>
+                            <li id="weather-sunset" class="list-group-item"></li>
+                        </ul>
+                        <span id="last-update"></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <form action="" id="w-form">
+                            <div class="form-group">
+                                <input type="text" name="city" id="city" class="form-control" placeholder="Ciudad" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="" id="countryCode" class="form-control" placeholder="Código país">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-dark btn-block" id="w-change-btn">Consultar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
